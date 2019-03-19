@@ -14,7 +14,7 @@ GROUP BY s.UID
 ORDER BY Total_price DESC
 LIMIT 10) AS ls
 INNER JOIN (
-SELECT ss.UID,  MINUTE(TIME(ss.Timestamp_start)) Date, sum(ss.Call_time) Call_time_per_day, sum(CAST((ss.Call_time * ss.Tarif) AS DECIMAL(10,2))) Total_per_day FROM (
+SELECT ss.UID,  DATE(ss.Timestamp_start) Date, sum(ss.Call_time) Call_time_per_day, sum(CAST((ss.Call_time * ss.Tarif) AS DECIMAL(10,2))) Total_per_day FROM (
 SELECT
 (TIME_TO_SEC(TIME(Timestamp_end))-TIME_TO_SEC(TIME(Timestamp_start))) Call_time,
 pr(cll.To) Num,
