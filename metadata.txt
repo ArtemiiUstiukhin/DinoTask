@@ -1,0 +1,17 @@
+TABLE_SCHEMA  TABLE_NAME       COLUMN_NAME      ORDINAL_POSITION  IS_NULLABLE  DATA_TYPE  COLUMN_DEFAULT
+Dino          Accounts         UID              1                 YES          int        NULL
+Dino          Accounts         Name             2                 YES          varchar    NULL
+Dino          Call_forwarding  From             1                 YES          int        NULL
+Dino          Call_forwarding  To               2                 YES          int        NULL
+Dino          Call_logs        Call_id          1                 YES          int        NULL
+Dino          Call_logs        Call_dir         2                 YES          varchar    NULL
+Dino          Call_logs        From             3                 YES          int        NULL
+Dino          Call_logs        To               4                 YES          int        NULL
+Dino          Call_logs        UID              5                 YES          int        NULL
+Dino          Call_logs        Timestamp_start  6                 NO           timestamp  CURRENT_TIMESTAMP
+Dino          Call_logs        Timestamp_end    7                 NO           timestamp  0000-00-00         00:00:00
+Dino          Numbers          UID              1                 YES          int        NULL
+Dino          Numbers          Phone_Number     2                 YES          int        NULL
+Dino          Rates            ID               1                 YES          int        NULL
+Dino          Rates            Money            2                 YES          double     NULL
+Dino          Rates            Description      3                 YES          varchar    NULL
