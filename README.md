@@ -17,6 +17,7 @@ Requests:
 UML DataBase Diagram: 
  
  - UML_Dino.pdf
+ - fresh_UML.pdf
 
 Metadata:
  
