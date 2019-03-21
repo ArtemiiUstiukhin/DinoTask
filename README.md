@@ -21,4 +21,8 @@ UML DataBase Diagram:
 
 Metadata:
  
- -  metadata.txt
+ - metadata.txt
+
+Description and User Story:
+
+ - Dino_tables_description.docx
